@@ -36,6 +36,7 @@ def main() -> int:
 
         plt.plot(X)
 
+    plt.yscale('log')
     plt.show()
 
     return 0
