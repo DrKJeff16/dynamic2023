@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Iterating through value `a`."""
 
 
 import sys

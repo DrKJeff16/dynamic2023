@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Iterating from `x_0` initial value."""
 
 
 import sys

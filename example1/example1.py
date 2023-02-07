@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Barebones example of a family of solutions dynamic system:
+    `x = (a * x) + b`"""
 
 
 import sys
