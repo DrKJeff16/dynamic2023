@@ -20,6 +20,7 @@ def main() -> int:
     # Initial Conditions
     A = np.arange(0, 50, 1)
     for a in A:
+        # a = 1.
         b = 2.
         x_0 = .5
         N = 100
