@@ -18,21 +18,23 @@ def main() -> int:
     # plt.show()
 
     # Initial Conditions
-    a = 1.
-    b = 2.
-    x_0 = .5
-    N = 100
+    A = np.arange(0, 50, 1)
+    for a in A:
+        b = 2.
+        x_0 = .5
+        N = 100
 
-    i = np.arange(0, N, 1)
-    x = x_0
-    X = list()
+        i = np.arange(0, N, 1)
+        x = x_0
+        X = list()
 
-    for _ in i:
-        print(x)
-        X.append(x)
-        x = f(x, a, b)
+        for _ in i:
+            print(x)
+            X.append(x)
+            x = f(x, a, b)
 
-    plt.plot(X)
+        plt.plot(X)
+
     plt.show()
 
     return 0
